@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 15px;
+}
+
+header p{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header li a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 8px;
+}
