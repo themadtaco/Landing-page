@@ -27,3 +27,36 @@ header li a{
     font-size: 18px;
     margin: 8px;
 }
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    padding: 35px;
+    justify-content: space-evenly;
+}
+
+.hero h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-content{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hero-content p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content button{
+    background-color: #3882F6;
+    border-radius: 25px;
+    padding: 10px;
+}
